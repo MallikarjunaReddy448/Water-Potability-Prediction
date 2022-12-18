@@ -7,7 +7,6 @@ Created on Fri May 27 20:39 2022
 import pandas as pd
 import numpy as np
 import streamlit as st 
-from sklearn.ensemble import RandomForestClassifier
 from pickle import dump
 from pickle import load
 import pickle
