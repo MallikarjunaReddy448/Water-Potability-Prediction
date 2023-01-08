@@ -48,9 +48,9 @@ def Potability_prediction(input_data):
     print(prediction)
 
     if (prediction == 1):
-      return 'YES'
+      return 'YES - Water Fit for Drinking'
     else:
-      return 'NO'
+      return 'NO - Water is Not Fit for drinking.'
   
 
 
@@ -58,21 +58,21 @@ def main():
     
     
     #giving a title
-    st.title('Random Forest')
+    st.title('Water Potability Prediction')
     
     
     # getting the input data from the user
     
     
-    number1 = st.number_input('Insert  Ph')
-    number2 = st.number_input('Insert  Hardness')
-    number3 = st.number_input('Insert  Solids')
-    number4 = st.number_input('Insert  Chloramines')
-    number5 = st.number_input('Insert  Sulfate')
-    number6 = st.number_input('Insert  Conductivity')
-    number7 = st.number_input('Insert  Organic_carbon')
-    number8 = st.number_input('Insert  Trihalomethanes')
-    number9 = st.number_input('Insert  Turbidity')
+    number1 = st.number_input('Insert  Ph Value')
+    number2 = st.number_input('Insert  Hardness Value')
+    number3 = st.number_input('Insert  Solids Value')
+    number4 = st.number_input('Insert  Chloramines Value')
+    number5 = st.number_input('Insert  Sulfate Value')
+    number6 = st.number_input('Insert  Conductivity Value')
+    number7 = st.number_input('Insert  Organic_carbon Value')
+    number8 = st.number_input('Insert  Trihalomethanes Value')
+    number9 = st.number_input('Insert  Turbidity Value')
     
     
 #     # code for Prediction
