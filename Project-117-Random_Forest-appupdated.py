@@ -56,9 +56,6 @@ def Potability_prediction(input_data):
 
 def main():
     
-    Menu = ["Check Water Quaity", "Menu"]
-    st.sidebar(Menu)
-    
     #giving a title
     st.title('Water Potability Prediction')
     
